@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  } 
+  
+  main {
+    margin-top: 80px; 
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 70px; 
+  }
+
+  header {
+    padding: 10px;
+    align-items: center;
+    top: 0;
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+    background: #ff9999;
+    display: flex;
+    justify-content: space-around;
+    font-size: 24px;
+  }
+  
+  header h1 {
+    font-size: 24px;
+  }
+  
+  .profile-icon {
+    font-size: 24px;
+  }
+  
+  .menu {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 70px; 
+  }
+  
+  .menu h2 {
+    margin-bottom: 10px;
+  }
+  
+  .menu span {
+    font-size: 12px;
+    color: gray;
+  }
+  
+  .menu-item {
+    margin: 10px 0;
+    text-align: left;
+  }
+  
+  .menu-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #ffcccc;
+    border: none;
+    font-size: 18px;
+    text-align: left;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .menu-button:hover {
+    background-color: #ffaaaa;
+  }
+  
+  .submenu {
+    display: none;
+    background: #ffe6e6;
+    padding: 10px 20px;
+    border-radius: 0 0 8px 8px;
+  }
+  
+  .submenu p {
+    margin: 5px 0;
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: #ff9999;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    font-size: 24px;
+  }
+  #ord-button {
+    padding: 15px;
+    background-color: #44bc5a;
+    border: none;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  #ord-button:hover {
+    background-color: #39ae52;
+  }
+  #name{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+  }
